@@ -5,8 +5,34 @@
   <title>background-attachment</title>
   <style>
    body {
-    background-image: url(/background.png); /* Путь к фоновому изображению */
+    background-image: url(/background.jpg); /* Путь к фоновому изображению */
     background-attachment: fixed; /* Фиксируем фон веб-страницы */
+    
+    <div id="about" class="tabcontent">
+      <h1>o nas</h1>
+      <p>lalala</p>
+    </div>
+
+    <div id="contacts" class="tabcontent">
+      <h1>conts</h1>
+      <p>adress and etc</p>
+    </div>
+
+    <div id="review" class="tabcontent">
+      <h1>otzyv</h1>
+      <p>kruto</p>
+    </div>
+
+    <div id="Oslo" class="tabcontent">
+      <h1>Oslo</h1>
+      <p>Oslo is the capital of Norway.</p>
+    </div>
+
+<button class="tablink" onclick="openCity('London', this, 'red')" id="defaultOpen">London</button>
+<button class="tablink" onclick="openCity('Paris', this, 'green')">Paris</button>
+<button class="tablink" onclick="openCity('Tokyo', this, 'blue')">Tokyo</button>
+<button class="tablink" onclick="openCity('Oslo', this, 'orange')">Oslo</button>
+    
    }
   </style>
  </head>
