@@ -8,7 +8,12 @@
   <style>
    body {
     background-image: url(/background.jpg); /* Путь к фоновому изображению */
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%; /* Современные браузеры */
     background-attachment: fixed; /* Фиксируем фон веб-страницы */
+   
     
   </style>
  </head>
