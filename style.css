@@ -40,3 +40,36 @@ bottom: 0;
 left: 0;
 right: 0;
          }
+
+.main-portfolio__title {
+    line-height: 65px;
+    font-family: "Roboto+Slab", Arial, sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0 auto;
+    margin-bottom: 48px;
+}
+
+.main-order__content {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 55px;
+}
+.main-order__btn a {
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+    padding: 10px 35px;
+    background: #7cc576;
+    border-radius: 50px;
+    line-height: 44px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 120px;
+} 
