@@ -25,7 +25,9 @@
   }
 
 /* Style each tab content individually */
-#London {background-color:red;}
+
+#Order {background-color:rgba(255, 255, 255, 0.8);}
+/* #London {background-color:red;} */
 #Paris {background-color:green;}
 #Tokyo {background-color:blue;}
 #Oslo {background-color:orange;}
