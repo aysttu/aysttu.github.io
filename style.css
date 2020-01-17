@@ -1,4 +1,9 @@
-   /* Style the tab buttons */
+  body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial;
+}
+/* Style the tab buttons */
   .tablink {
   background-color: rgba(255, 255, 255, 0.3);
   color: white;
