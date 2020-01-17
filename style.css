@@ -6,6 +6,7 @@
 /* Style the tab buttons */
   .tablink {
   background-color: rgba(255, 255, 255, 0.0);
+  position: fixed;
   color: white;
   float: left;
   border: none;
