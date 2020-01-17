@@ -5,7 +5,7 @@
 }
 /* Style the tab buttons */
   .tablink {
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.0);
   color: white;
   float: left;
   border: none;
@@ -18,7 +18,7 @@
 
 /* Change background color of buttons on hover */
   .tablink:hover {
-  background-color: rgba(255, 255, 255, 0.0);
+  background-color: rgba(255, 255, 255, 0.1);
   }
 
 /* Set default styles for tab content */
@@ -31,11 +31,10 @@
 
 /* Style each tab content individually */
 
-#Home {background-color:rgba(255, 255, 255, 0.8);}
-/* #London {background-color:red;} */
-#News {background-color:green;}
-#Contact {background-color:blue;}
-#About {background-color:orange;}
+#Home {background-color:rgba(255, 255, 255, 0.0);}
+#News {background-color:rgba(255, 255, 255, 0.0);}
+#Contact {background-color:rgba(255, 255, 255, 0.0);}
+#About {background-color:rgba(255, 255, 255, 0.0);}
 
 
 .main-portfolio__title {
