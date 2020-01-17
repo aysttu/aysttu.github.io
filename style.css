@@ -22,12 +22,12 @@
   }
 
 /* Set default styles for tab content */
-  .tabcontent {
+.tabcontent {
   color: white;
   display: none;
-  padding: 50px;
-  text-align: center;
-  }
+  padding: 100px 20px;
+  height: 100%;
+}
 
 /* Style each tab content individually */
 
