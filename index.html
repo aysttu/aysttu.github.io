@@ -2,9 +2,10 @@
 <html>
  <head>
   <meta charset="utf-8">
-  <title>background-attachment</title>
+  <title>название компании все дела</title>
   <script type="text/javascript" src="script.js"></script>
   <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
     body {
     background-image: url(/background-minif.jpg); /* Путь к фоновому изображению */
@@ -14,14 +15,14 @@
     -o-background-size: 100%; /* Opera 9.6+ */
     background-size: cover; /* Современные браузеры */
     background-attachment: fixed; /* Фиксируем фон веб-страницы */
-    background-color: rgba(0,0,0,.7);
+    background-color: rgba(0,0,0,.3);
     background-blend-mode: darken;
     }
     
   </style>
  </head>
  <body>
-  <div id="Order" class="tabcontent">
+  <div id="Home" class="tabcontent">
         <div class="container">
             <div class="main-order">
                 creative digital<br> Мы делаем окна
@@ -37,24 +38,24 @@
         </div>
     </div>
 
-    <div id="contacts" class="tabcontent">
+    <div id="News" class="tabcontent">
       <h1>conts</h1>
       <p>adress and etc</p>
     </div>
 
-    <div id="review" class="tabcontent">
+    <div id="Contact" class="tabcontent">
       <h1>otzyv</h1>
       <p>kruto</p>
     </div>
 
-    <div id="Oslo" class="tabcontent">
+    <div id="About" class="tabcontent">
       <h1>Oslo</h1>
       <p>Oslo is the capital of Norway.</p>
     </div>
 
-<button class="tablink" onclick="openCity('Order', this, 'red')" id="defaultOpen">Заказать окно</button>
-<button class="tablink" onclick="openCity('Paris', this, 'green')">Paris</button>
-<button class="tablink" onclick="openCity('Tokyo', this, 'blue')">Tokyo</button>
-<button class="tablink" onclick="openCity('Oslo', this, 'orange')">Oslo</button>
+<button class="tablink" onclick="openPage('Home', this, 'red')">Заказать окно</button>
+<button class="tablink" onclick="openPage('News', this, 'green')" id="defaultOpen">Отзывы</button>
+<button class="tablink" onclick="openPage('Contact', this, 'blue')">Contact</button>
+<button class="tablink" onclick="openPage('About', this, 'orange')">About</button>
  </body>
 </html>
