@@ -6,6 +6,7 @@
   <script type="text/javascript" src="script.js"></script>
   <link rel="stylesheet" href="style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <body onload="document.getElementById('defaultOpen').click();"></body>
   <style>
     body {
     background-image: url(/background-minif.jpg); /* Путь к фоновому изображению */
@@ -25,7 +26,6 @@
 <button class="tablink" onclick="openPage('News', this, 'rgba(255, 255, 255, 0.0)')">Отзывы</button>
 <button class="tablink" onclick="openPage('Contact', this, 'rgba(255, 255, 255, 0.0)')">Контакты</button>
 
-<body onload="document.getElementById('defaultOpen').click();"></body>
   <div id="Home" class="tabcontent">
         <div class="container">
             <div class="main-order__content">
@@ -33,7 +33,7 @@
             </div>
             <div class="main-order-tab">
                     <form action="https://formm.ru/mail/" method="post" onsubmit="return formm.sub(this);">
-                      <style> .f--all { width: 90%; background: rgba(161, 127, 127, 0.2); opacity: 0.3; border: 1px solid #000000; font: 12px sans-serif; padding: 0 1%; } .f--input { height: 20px; } .f--text { height: 50px; } .f--file { width: 568px; height: 20px; font: 13px sans-serif; cursor: pointer; padding: 0; } .f--button { width: 205px; height: 30px; background: #cacaca44; color: #fafafa; border-color: #ffffcc; font: 16px sans-serif; cursor: pointer; }</style> 
+                      <style> .f--all { width: 90%; background: rgba(161, 127, 127, 0.2); opacity: 0.3; border: 1px solid #ffffff; font: 12px sans-serif; padding: 0 1%; } .f--input { height: 20px; } .f--text { height: 50px; } .f--file { width: 568px; height: 20px; font: 13px sans-serif; cursor: pointer; padding: 0; } .f--button { width: 205px; height: 30px; background: #cacaca44; color: #fafafa; border-color: #ffffcc; font: 16px sans-serif; cursor: pointer; }</style> 
                       <!-- <style> .f--all { width: 90%; background: rgba(161, 127, 127, 0.1); color: #000000; border: 1px solid #000000; font: 12px sans-serif; padding: 0 1%; } .f--input { height: 20px; } .f--text { height: 50px; } .f--file { width: 568px; height: 20px; font: 13px sans-serif; cursor: pointer; padding: 0; } .f--button { width: 205px; height: 30px; background: #000000; color: #ffff66; border-color: #ffffcc; font: 16px sans-serif; cursor: pointer; }</style> -->
                       <input type="hidden" name="check" value="name:Ваше имя?!.email:Укажите правильный e-mail!.text:Напишите сообщение!.captcha:Ошибка в проверочном коде!"/>
                       <input type="hidden" name="subject" value="Сообщение с сайта"/>
